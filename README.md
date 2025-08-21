@@ -18,7 +18,7 @@ Make sure you have the following installed on your machine:
 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
-- (Optional) PostgreSQL Client or GUI tool such as [DBeaver](https://dbeaver.io/), [pgAdmin](https://www.pgadmin.org/), or [psql](https://www.postgresql.org/docs/current/app-psql.html)
+- (Optional) PostgreSQL Client or GUI tool such as DBeaver
 -
 ## Getting Started
 ### 1. Clone the Repository
@@ -150,6 +150,7 @@ For any issues or feature requests, please open an issue or contact the maintain
 ***
 
 This README provides users with all needed steps and info to run your system locally after cloning from GitHub. Let me know if you want me to generate it as a downloadable file for you!
+
 
 
 
