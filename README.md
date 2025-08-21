@@ -1,4 +1,4 @@
-######Stock Market Data Pipeline with Dockerized Airflow & PostgreSQL
+###### Stock Market Data Pipeline with Dockerized Airflow & PostgreSQL
 
 This project is a data pipeline to fetch stock market data using the Alpha Vantage API, process and store it in a PostgreSQL database, orchestrated by Apache Airflow running in Docker containers.
 
@@ -12,7 +12,7 @@ This project is a data pipeline to fetch stock market data using the Alpha Vanta
 - Fully containerized setup using Docker and Docker Compose
 - Easy deployment and extensibility
 
-###Prerequisites**
+### Prerequisites**
 
 Make sure you have the following installed on your machine:
 
@@ -20,8 +20,8 @@ Make sure you have the following installed on your machine:
 - [Docker Compose](https://docs.docker.com/compose/install/)
 - (Optional) PostgreSQL Client or GUI tool such as [DBeaver](https://dbeaver.io/), [pgAdmin](https://www.pgadmin.org/), or [psql](https://www.postgresql.org/docs/current/app-psql.html)
 -
-#####Getting Started
-###1. Clone the Repository
+##### Getting Started
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/stock-market-pipeline.git
@@ -147,5 +147,6 @@ For any issues or feature requests, please open an issue or contact the maintain
 ***
 
 This README provides users with all needed steps and info to run your system locally after cloning from GitHub. Let me know if you want me to generate it as a downloadable file for you!
+
 
 
