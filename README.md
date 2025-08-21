@@ -1,10 +1,10 @@
-###### Stock Market Data Pipeline with Dockerized Airflow & PostgreSQL
+### Stock Market Data Pipeline with Dockerized Airflow & PostgreSQL
 
 This project is a data pipeline to fetch stock market data using the Alpha Vantage API, process and store it in a PostgreSQL database, orchestrated by Apache Airflow running in Docker containers.
 
 ***
 
-###Features
+### Features
 
 - Fetches intraday stock data hourly via Alpha Vantage API
 - Stores stock price data in PostgreSQL with upsert functionality
@@ -147,6 +147,7 @@ For any issues or feature requests, please open an issue or contact the maintain
 ***
 
 This README provides users with all needed steps and info to run your system locally after cloning from GitHub. Let me know if you want me to generate it as a downloadable file for you!
+
 
 
 
