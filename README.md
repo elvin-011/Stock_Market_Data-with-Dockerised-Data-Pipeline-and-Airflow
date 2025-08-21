@@ -1,10 +1,10 @@
-###**Stock Market Data Pipeline with Dockerized Airflow & PostgreSQL**
+######Stock Market Data Pipeline with Dockerized Airflow & PostgreSQL
 
 This project is a data pipeline to fetch stock market data using the Alpha Vantage API, process and store it in a PostgreSQL database, orchestrated by Apache Airflow running in Docker containers.
 
 ***
 
-**Features**
+###Features
 
 - Fetches intraday stock data hourly via Alpha Vantage API
 - Stores stock price data in PostgreSQL with upsert functionality
@@ -12,7 +12,7 @@ This project is a data pipeline to fetch stock market data using the Alpha Vanta
 - Fully containerized setup using Docker and Docker Compose
 - Easy deployment and extensibility
 
-**Prerequisites**
+###Prerequisites**
 
 Make sure you have the following installed on your machine:
 
@@ -20,8 +20,8 @@ Make sure you have the following installed on your machine:
 - [Docker Compose](https://docs.docker.com/compose/install/)
 - (Optional) PostgreSQL Client or GUI tool such as [DBeaver](https://dbeaver.io/), [pgAdmin](https://www.pgadmin.org/), or [psql](https://www.postgresql.org/docs/current/app-psql.html)
 -
-   **Getting Started**
-1. Clone the Repository
+#####Getting Started
+###1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/stock-market-pipeline.git
@@ -47,7 +47,7 @@ python -c "import secrets; print(secrets.token_urlsafe(16))"
 
 ***
 
-###**3. Start Docker Containers**
+###3. Start Docker Containers
 
 Run the following to build and start Airflow, PostgreSQL, and dependencies:
 
@@ -70,7 +70,7 @@ Open your browser and go to:
 http://localhost:8080
 ```
 
-- Create an Airflow admin user if authentication is enabled (use `docker-compose run airflow-webserver airflow users create ...`)
+- Create an Airflow admin user if authentication is enabled (use `docker-compose run airflow-webserver airflow users create --username "ANY NAME" --firstname "FIRSTNAME" --lastname "LASTNAME" --role Admin --email "EMAIL_ID" --password "ANY PASSWORD"`)
 - Enable the `stock_data_pipeline` DAG by toggling it ON.
 - Trigger a manual run or wait for the schedule trigger (hourly).
 
@@ -147,4 +147,5 @@ For any issues or feature requests, please open an issue or contact the maintain
 ***
 
 This README provides users with all needed steps and info to run your system locally after cloning from GitHub. Let me know if you want me to generate it as a downloadable file for you!
+
 
