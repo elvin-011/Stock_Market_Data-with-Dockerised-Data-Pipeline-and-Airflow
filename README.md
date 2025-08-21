@@ -70,7 +70,9 @@ Open your browser and go to:
 http://localhost:8080
 ```
 
-- Create an Airflow admin user if authentication is enabled (use `docker-compose run airflow-webserver airflow users create --username "ANY NAME" --firstname "FIRSTNAME" --lastname "LASTNAME" --role Admin --email "EMAIL_ID" --password "ANY PASSWORD"`)
+- Create an Airflow admin user if authentication is enabled ``bash
+  docker-compose run airflow-webserver airflow users create --username "ANY NAME" --firstname "FIRSTNAME" --lastname "LASTNAME" --role Admin --email "EMAIL_ID" --password "ANY PASSWORD"
+``
 - Enable the `stock_data_pipeline` DAG by toggling it ON.
 - Trigger a manual run or wait for the schedule trigger (hourly).
 
@@ -147,6 +149,7 @@ For any issues or feature requests, please open an issue or contact the maintain
 ***
 
 This README provides users with all needed steps and info to run your system locally after cloning from GitHub. Let me know if you want me to generate it as a downloadable file for you!
+
 
 
 
